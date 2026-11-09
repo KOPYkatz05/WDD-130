@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+         <table>
+          <tr>
+            <th>Speaker</th><th>Talk Title</th><th>Location</th><th>Year</th>
+          </tr>
+          <td>Sam Eidam</td><td>Divine Intelligence Guiding Our Use of Artificial Intelligence</td><td>BYU-Idaho</td><td>June 09, 2026</td>
+          <tr>
+            <td>Lisa Valentine Clark</td><td>Permission to Become: Creativity, Courage & Divine Growth</td><td>BYU-Idaho</td><td>March 05, 2026</td>
+          </tr>
+          <tr>
+          <td>Casey Puzey</td><td>Trust the Refiner</td><td>BYU-Idaho</td><td>June 10, 2025</td>
+          </tr>
+         </table>
+         <form>
+          <label for="speaker-name">Speaker:</label> 
+          <input type="text" id="speaker-name" required>
+          <label for="talk-title">Talk Title:</label>
+          <input type="text" id="talk-title">
+          <label for="location">Location:</label> 
+          <input type="text" id="location">
+          <label for="year">Year:</label>
+          <input type="text" id="year">
+          <input type="submit" value="Submit">
+         </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="James VanOrden's personal website and coursework portal.">
+    <title>James VanOrden | Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body id="top">
+    <header>
+        <div class="banner">
+            <p>James VanOrden</p>
+            <h1>My coursework portal.</h1>
+        </div>
+
+        <div class="navigation-row">
+            <a href="index.html" aria-label="James VanOrden home">
+                <img src="james-vanorden-logo-transparent.png" alt="" width="48" height="48">
+            </a>
+
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="../white_water_rafting/index.html">WWR</a></li>
+                    <li><a href="ice.html">ICE</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="introduction" aria-labelledby="intro-heading">
+            <img class="portrait" src="profile.png" alt="Portrait of James VanOrden wearing a gray suit and blue tie outdoors" width="420" height="525" style="max-width: 100%; height: auto;">
+
+            <div class="introduction-text">
+                <p>Hello &amp; welcome</p>
+                <h2 id="intro-heading">I'm James VanOrden.</h2>
+                <p>I'm a Computer Science major at BYU-Idaho with a minor in AI Engineering.</p>
+                <p>This site brings together the projects I'm working on in WDD 130. I'm practicing how to organize a page with HTML and use CSS to bring a design to life.</p>
+                <p>You can explore my <a href="../white_water_rafting/index.html">white water rafting project</a>, browse my <a href="ice.html">ICE assignments</a>, or <a href="about.html">learn more about me</a>.</p>
+
+                <h3>Current interests</h3>
+                <ul>
+                    <li>3D Computer Animation</li>
+                    <li>Novel Writing</li>
+                    <li>Reading</li>
+                    <li>Climbing Rocks</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Footer navigation">
+            <h2>Explore</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../white_water_rafting/index.html">WWR</a></li>
+                <li><a href="ice.html">ICE</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+
+        <section aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+            <table>
+                <caption>BYU-Idaho</caption>
+                <tbody>
+                    <tr>
+                        <th scope="row">Major</th>
+                        <td>Computer Science</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Minor</th>
+                        <td>AI Engineering</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Let's connect</h2>
+            <p>Feel free to reach out to me.</p>
+            <!-- Add a submission destination -->
+            <form>
+                <label for="contact-email">Email address</label>
+                <input type="email" id="contact-email" name="email" autocomplete="email" placeholder="you@example.com" required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <p>&copy; 2026 James VanOrden</p>
+        <a href="#top">Back to top</a>
+    </footer>
+</body>
+</html>
+
